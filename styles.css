@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    /* background-color: #1a1a1a; */
+    background-color: #1a1a1a;
 }
 main {
     background: 
@@ -16,6 +16,7 @@ main {
     flex-flow: column nowrap;
     text-align: center;
 color: aqua;
+
 }
 .title img {
 box-shadow: 0 5px 25px rgba(0,0,0,0.5);;
@@ -24,7 +25,7 @@ nav {
     margin: 1.5em;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 1.5em;
     box-shadow: 0 0 15px rgba(0, 168, 255, 0.7);
 }
@@ -33,7 +34,8 @@ nav a {
     color: #00a8ff;
 
 }
-.card {
+
+.welcome {
 display: flex;
 flex-direction: column;
 }
@@ -43,12 +45,13 @@ flex-direction: column;
  flex-flow: column wrap;
  justify-content: center;
  align-items: center;
+ text-align: center;
 }
 .text_card h1{
-    font-size:  1.5em;    
+    font-size:  1.7em;    
 }
 .text_card p{
-    font-size: 1em;
+    font-size: 1.2em;
 }
 .chosen {
     display: flex;
@@ -63,6 +66,7 @@ flex-direction: column;
        box-shadow: 
         0 4px 8px rgba(0, 0, 0, 0.4),
         0 8px 16px rgba(0, 0, 0, 0.3);
+    margin: 10px;
 }
 
 .text_chosen, .right {
@@ -82,6 +86,119 @@ flex-direction: column;
 }
 .chosen p, .chosen li {
     margin: 4px 0;
-    font-size: 0.9em;
+    font-size: 1em;
     color: white;
+}
+.chosen_magican {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 45%;
+    padding: 20px;
+    background: #2d1b4e;
+    border: #ff00ff 2px solid;
+    border-radius: 8px;
+    color: #d4d4f0;
+       box-shadow: 
+        0 4px 8px rgba(0, 0, 0, 0.4),
+        0 8px 16px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+}
+.chosen_magican h1 {
+    color:#ffd700;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+.chosen_magican h2 {
+    color: #00ffff;
+    margin: 12px 0 6px 0;
+    font-size: 1em;
+}
+.chosen_magican p, .chosen_magican li {
+    margin: 4px 0;
+    font-size: 1em;
+    color: #d4d4f0;
+}
+.chosen_hunter  {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 45%;
+    padding: 20px;
+    background: #0a1f0a;
+    border: #1a3d1a  2px solid;
+    border-radius: 8px;
+    color: #696969;
+       box-shadow: 
+        0 4px 8px rgba(0, 0, 0, 0.4),
+        0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.chosen_hunter h1 {
+    color:#8b4513;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+.chosen_hunter h2 {
+    color: #32cd32;
+    margin: 12px 0 6px 0;
+    font-size: 1em;
+}
+.chosen_hunter p, 
+.chosen_hunter li {
+    margin: 4px 0;
+    font-size: 1em;
+    color: #d4d4f0;
+}
+
+
+
+
+
+
+/* .back1 {
+    color: #c5c3c3 ;
+    background-image: url(img/wolf.png);
+    background-size: contain;     
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed;
+    max-width: 100%;
+    max-height: 40%;
+    height: 800px;
+    filter: 
+    contrast(1.5) 
+    brightness(0.9)
+    sepia(0.2)
+    hue-rotate(10deg);
+} */
+.reapers {
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    gap: 4px;
+    flex-direction: column;
+    color: #00a8ff ;
+    margin: 25px;
+
+}
+.reapers button {
+    text-decoration: none;
+    font-size: 0.9em;
+
+}
+.reapers a  {
+    display: inline-block;
+    text-decoration: none;
+    color:  #00a8ff;
+    font-size: 2rem;
+    filter: 
+    contrast(1.5) 
+    brightness(0.9)
+    sepia(0.2)
+    hue-rotate(10deg);
+}
+communication img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
