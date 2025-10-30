@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #1a1a1a;
+}
+header {
+    background: 
+        radial-gradient(circle at 20% 80%, rgba(0, 100, 200, 0.2) 0%, transparent 50%),
+        #1a1a1a;
+}
+.title {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    text-align: center;
+color: aqua;
+filter: drop-shadow(10px); 
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(63, 145, 238);
+    padding: 10px;
+    margin: 5px;
+    font-size: 1.5rem;
+}
+.bio {
+    display: flex;
+    color: #ffffff;
+
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <div class="title">
+        <img src="Faction_Reaper_1.webp" alt="">
+        <h1>База жнецов</h1>
+            <nav>
+                <a href="#">ОПЕРАТИВНЫЙ ЦЕНТР</a>
+                <a href=""> ИНЖЕНЕРНЫЙ ОТСЕК </a>   
+                <a href=""> ЛАБОРАТОРИЯ </a>
+                <a href=""> ИЗБРАННЫЕ</a>     
+            </nav>
+    </div>
+</header>
+<section id="bio">
+    <div class="bio">
+        <h1>Досье XCOM: Фракция «Жнецы»</h1>
+        <p>Статус: Активные <span>союзники</span> Сопротивления</p>
+        <p>Тактическая специализация: Партизанская война, разведка, диверсии</p>
+        <p>Опознавательный знак: Стилизованное изображение черепа в капюшоне с
+        тремя когтями, рассекающими его.</p>
+        <blockquote> <span> Девиз:</span> «От теней — к победе» (англ. "From the shadows, to victory")</blockquote>
+    </div>
+</section>
+</body>
+</html>
