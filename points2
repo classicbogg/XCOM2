@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #1a1a1a;
+}
+header {
+    background: 
+        radial-gradient(circle at 20% 80%, rgba(0, 100, 200, 0.2) 0%, transparent 50%),
+        #1a1a1a;
+}
+.title {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    text-align: center;
+color: aqua;
+filter: drop-shadow(10px); 
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(63, 145, 238);
+    padding: 10px;
+    margin: 5px;
+    font-size: 1.5rem;
+}
+.bio {
+    display: flex;
+    color: #ffffff;
+      justify-content: space-between;
+    gap: 5px;
+    max-width: 100%;
+    font-size: 1.25em;
+    box-shadow: 
+        0 4px 8px rgba(0, 0, 0, 0.4),
+        0 8px 16px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    text-align: start;
+}
+
+.text_bio, .right {
+    flex: 1;
+}
+.brown {
+    color: rgb(196, 158, 69)
+}
+.aqua {
+    color: aqua;
+}
+.violet {
+    color: violet;
+}
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <div class="title">
+        <img src="Faction_Reaper_1.webp" alt="">
+        <h1>База жнецов</h1>
+            <nav>
+                <a href="#">ОПЕРАТИВНЫЙ ЦЕНТР</a>
+                <a href=""> ИНЖЕНЕРНЫЙ ОТСЕК </a>   
+                <a href=""> ЛАБОРАТОРИЯ </a>
+                <a href=""> ИЗБРАННЫЕ</a>     
+            </nav>
+    </div>
+</header>
+<section id="bio">   
+        <div class="bio">
+                <div class="text_bio">
+                    <h1>Досье <span class="aqua">XCOM:</span> Фракция «Жнецы»</h1>
+                    <p>Статус: Активные <span class="brown">союзники</span> <span class="aqua">Сопротивления</span></p>
+                    <p>Тактическая специализация: Партизанская война, разведка, диверсии</p>
+                    <p>Опознавательный знак: Стилизованное изображение черепа в капюшоне. Девиз:</p>
+                   <blockquote><span class="aqua">«От теней — к победе»</span> (англ. "From the shadows, to victory")</blockquote>
+                </div>
+                    <div class="right">
+                        <p><span class="brown">Жнецы</span> — не просто фракция <span class="aqua">Сопротивления</span>; они — живые призраки, последние выжившие с континента, который первым пал под натиском <span class="violet">Пришельцев</span>. 
+                    Их родина была стерта с лица Земли в ходе самых ожесточенных бомбардировок и химических атак в первые дни войны. Те, кому удалось выжить, сделали это ценой
+                     невероятных потерь и, что важнее, ценой собственного человечества.Они научились выживать в самых негостеприимных уголках постапокалиптического мира — 
+                     в радиоактивных пустошах, отравленных лесах и руинах мертвых городов. Их название — <span class="brown">«Жнецы»</span> — не просто символ смерти. Оно отражает их главную тактику:
+                      они «пожинают» урожай, который сеют их враги, подбирая остатки после боев, собирая разведданные и методично сокращая численность противника, словно  <span class="brown">Жнец</span> 
+                      косит колосья.Их лидер, <span class="brown">Волк</span>, была одной из первых, кто понял, что против <span class="violet">Пришельцев</span> нельзя воевать в лоб. Она и её последователи разработали философию
+                       войны из теней, где выживание и терпение ценятся выше героической гибели.</p>
+                    </div>      
+        </div>
+
+<div class="bio">
+    <div class="text_bio">
+        <h1>Идеология и Философия</h1>
+        <p>Выживание превыше всего: Для  <span class="brown">Жнеца</span> отступить — не поражение, а тактическая необходимость. Они не видят славы в бессмысленной смерти. Каждый выживший боец — это ещё один день, который <span class="aqua">Сопротивление</span> может бороться.</p>
+    </div>
+</div>
+</section>
+</body>
+</html>
